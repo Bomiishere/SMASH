@@ -34,10 +34,10 @@ enum NavigaitonTheme {
         case .None: return nil
             
         case .Light:
-            return UIColor(red: 211/255, green: 211/255, blue: 211/255, alpha: 1.0)
+            return .lightThemeTint
             
         case .Dark:
-            return UIColor(red: 65/255, green: 65/255, blue: 65/255, alpha: 1.0)
+            return .darkThemeTint
         }
     }
     
