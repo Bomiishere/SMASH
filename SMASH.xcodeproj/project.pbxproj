@@ -13,6 +13,10 @@
 		F40D729F219B0B5E00978C6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F40D729E219B0B5E00978C6F /* Assets.xcassets */; };
 		F40D72A2219B0B5E00978C6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40D72A0219B0B5E00978C6F /* LaunchScreen.storyboard */; };
 		F40D72AA219B177C00978C6F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40D72A9219B177C00978C6F /* HomeViewController.swift */; };
+		F40D72B0219B205200978C6F /* NavigationTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40D72AF219B205200978C6F /* NavigationTheme.swift */; };
+		F40D72B2219B220500978C6F /* UINavigationBar+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40D72B1219B220500978C6F /* UINavigationBar+Theme.swift */; };
+		F40D72B4219B228500978C6F /* ThemeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40D72B3219B228500978C6F /* ThemeNavigationController.swift */; };
+		F40D72B7219B26BC00978C6F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40D72B6219B26BC00978C6F /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		F40D72A1219B0B5E00978C6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F40D72A3219B0B5E00978C6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F40D72A9219B177C00978C6F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F40D72AF219B205200978C6F /* NavigationTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTheme.swift; sourceTree = "<group>"; };
+		F40D72B1219B220500978C6F /* UINavigationBar+Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Theme.swift"; sourceTree = "<group>"; };
+		F40D72B3219B228500978C6F /* ThemeNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeNavigationController.swift; sourceTree = "<group>"; };
+		F40D72B6219B26BC00978C6F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,8 @@
 				F40D7299219B0B5C00978C6F /* LandingViewController.swift */,
 				F40D729B219B0B5C00978C6F /* Main.storyboard */,
 				F40D729E219B0B5E00978C6F /* Assets.xcassets */,
+				F40D72B5219B269700978C6F /* Base */,
+				F40D72AE219B1AD700978C6F /* Navigation */,
 				F40D72AB219B178200978C6F /* Home */,
 				F40D72A0219B0B5E00978C6F /* LaunchScreen.storyboard */,
 				F40D72A3219B0B5E00978C6F /* Info.plist */,
@@ -73,6 +83,24 @@
 				F40D72A9219B177C00978C6F /* HomeViewController.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		F40D72AE219B1AD700978C6F /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				F40D72B3219B228500978C6F /* ThemeNavigationController.swift */,
+				F40D72AF219B205200978C6F /* NavigationTheme.swift */,
+				F40D72B1219B220500978C6F /* UINavigationBar+Theme.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		F40D72B5219B269700978C6F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F40D72B6219B26BC00978C6F /* BaseViewController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F40D72B4219B228500978C6F /* ThemeNavigationController.swift in Sources */,
 				F40D729A219B0B5C00978C6F /* LandingViewController.swift in Sources */,
+				F40D72B2219B220500978C6F /* UINavigationBar+Theme.swift in Sources */,
 				F40D7298219B0B5C00978C6F /* AppDelegate.swift in Sources */,
 				F40D72AA219B177C00978C6F /* HomeViewController.swift in Sources */,
+				F40D72B7219B26BC00978C6F /* BaseViewController.swift in Sources */,
+				F40D72B0219B205200978C6F /* NavigationTheme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
